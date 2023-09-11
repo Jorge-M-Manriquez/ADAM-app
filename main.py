@@ -22,7 +22,7 @@ def main(page: ft.Page):
     page.window_width= 350
     page.window_height= 700
     page.scroll= "auto"
-    #page.bgcolor= ft.colors.BLACK12
+    
     #llamar al appbar
     bar, responsiv = create_appbar(page)
     page.appbar = bar
