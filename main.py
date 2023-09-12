@@ -12,7 +12,7 @@ from select_function import Select_function
 import pygame
 from bar_menu import create_appbar, check
 from funciones import record, stop_recording, design_grabando, play_response, design_recvoz, save_record, color_boton, inicializar_pyaudio
-#comentario prueba
+
 
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
