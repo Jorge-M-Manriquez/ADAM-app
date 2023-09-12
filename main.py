@@ -13,7 +13,7 @@ import pygame
 from bar_menu import create_appbar, check
 from funciones import record, stop_recording, design_grabando, play_response, design_recvoz, save_record, color_boton, inicializar_pyaudio
 
-
+#
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 elevenlabs_key = os.getenv('ELEVENLABS_API_KEY')
